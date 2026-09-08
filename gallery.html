@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GALLERY | May</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header"><nav><a href="index.html">HOME</a><a href="news.html">NEWS</a></nav></header>
+    <main class="inner-page gallery-page">
+      <div class="section-heading"><h1>GALLERY</h1></div>
+      <section class="gallery-group">
+        <h2 class="gallery-group-title">一次創作</h2>
+        <div class="art-grid">
+          <!-- 作品を増やす時は、この a 全体をコピーして画像ファイル名と alt を変えてください -->
+          <a class="art-item" href="assets/hero.png" data-lightbox data-caption="" aria-label="ハロウィン風キャラクターの集合イラストを拡大表示">
+            <img src="assets/hero.png" alt="ハロウィン風キャラクターの集合イラスト" />
+          </a>
+          <div class="art-placeholder alt"></div>
+          <div class="art-placeholder warm"></div>
+        </div>
+      </section>
+      <section class="gallery-group">
+        <h2 class="gallery-group-title">二次創作</h2>
+        <div class="art-grid">
+          <div class="art-placeholder warm"></div>
+          <div class="art-placeholder"></div>
+          <div class="art-placeholder alt"></div>
+        </div>
+      </section>
+    </main>
+    <div class="lightbox" aria-hidden="true" role="dialog" aria-label="作品の拡大表示">
+      <button class="lightbox-close" type="button" aria-label="閉じる">×</button>
+      <img src="" alt="" />
+      <p class="lightbox-caption"></p>
+    </div>
+    <footer><p>© May</p></footer>
+    <script src="gallery.js"></script>
+  </body>
+</html>
