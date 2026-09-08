@@ -46,3 +46,8 @@ footer { display:flex; justify-content:space-between; gap:18px; padding:22px max
 @media(max-width:620px) { .news .news-list article { flex-wrap:nowrap; }.news .news-list p { width:auto; } }
 @media(max-width:620px) { .news-detail { padding-left:81px; } }
 @media(max-width:620px) { .mutual-banner img { width:44vw; } }
+
+.contact .section-heading { text-align:center; }
+.contact-form-embed { padding-top:28px; border-top:3px solid var(--paper); }
+.contact-form-embed iframe { display:block; width:100%; min-height:820px; border:0; background:#fff; }
+@media(max-width:620px) { .contact-form-embed iframe { min-height:900px; } }
